@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<style type="text/css">
+BODY {
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background-repeat: repeat-x;
+}
+P, LI, TABLE, .normal {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.cookieCrumb {
+	COLOR: #666666;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sectionTitle {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 12pt;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+}
+.menuItem, A.menuItem {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000000;
+}
+.navleft, A.navleft {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navleftSub, A.navleftSub {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+.navHigh, A.navHigh {
+	border: 0px solid yellow;
+ color: black  padding: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.navtop, A.navtop {
+	color: #000099;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.deSummaryHeadline {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+}
+.deHeadline {
+	COLOR: #000000;
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+}
+.search {
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+}
+.box, .sidebarHeader {
+	background-color: #000099;
+	FONT-SIZE: 11pt;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sidebar {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background: #DDDDDD;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+.subtext {
+	COLOR: #000000;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+/* ----------------------------- INFOSIGHT CSS-------------------------- */
+/* ------------------------- MAIN CONTENT ELEMENTS ------------------------- */
+.PageHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.newsletterHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterSubHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterHeader_Blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0D3F64;
+}
+/* ----------------------------- REGIONS ----------------------------------- */
+.subhead {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color: #000000;
+}
+li.regions_relatedlink_list, ul.regions_relatedlink_list {
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+/* ------------------------------------------------------ */
+
+/* CONTENT: SITEMAP STYLES */
+.content_sitemap {
+}
+/* CONTENT: RATES STYLES */
+.content_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_notes {
+}
+.content_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.content_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* CONTENT: BANNER STYLES */
+.content_banner {
+}
+/* CONTENT: POLL STYLES */
+.content_poll_title {
+	font-weight: bold;
+}
+.content_poll_option {
+}
+/* CONTENT: ARTICLE STYLES */
+.content_article_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_article_list {
+}
+.content_article_list LI {
+	margin-bottom: 10px;
+}
+/* CONTENT: CALENDAR STYLES */
+.content_calendar_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_calendar_list {
+}
+.content_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.content_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.content_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.content_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------------------------------------ */
+
+.regions_header {
+	font-size: 14px;
+	color: #003333;
+	font-weight: bold;
+}
+/* REGIONS: SITEMAP STYLES */
+.regions_sitemap {
+}
+/* REGIONS: RATES STYLES */
+.regions_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_notes {
+}
+.regions_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.regions_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.regions_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* REGIONS: BANNER STYLES */
+.regions_banner {
+}
+/* REGIONS: RELATED LINKS STYLES */
+.regions_relatedlink_list {
+}
+/* REGIONS: POLL STYLES */
+.regions_poll_title {
+	font-weight: bold;
+}
+.regions_poll_option {
+}
+/* REGIONS: ARTICLE STYLES */
+.regions_articles_list {
+}
+/* REGIONS: CALENDAR STYLES */
+.regions_calendar_list {
+}
+.regions_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.regions_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.regions_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.regions_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------- SIDE BAR ELEMENTS ------------------------- */
+.SideLinksMain {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	color : #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.SideLinksMain:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksMain:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+
+}
+a.SideLinksMain:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #cccccc;
+}
+.SideLinksSub {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	color : #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.SideLinksSub:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+a.helpLink, a.helpLink:visited, a.helpLink:link, a.helpLink:active {
+	color: Red;
+	text-decoration: none;
+	border-bottom: 1px dashed Red;
+	cursor: help;
+}
+a.helpLink:hover {
+	color: Blue;
+	text-decoration: none;
+	border-bottom: 1px dashed Blue;
+}
+.help-tooltip {
+	position: absolute;
+	width: 250px;
+	border: 1px Solid WindowFrame;
+	background: Infobackground;
+	color: InfoText;
+	font: StatusBar;
+	font: Status-Bar;
+	padding: 3px;
+ filter:		progid:DXImageTransform.Microsoft.Shadow(color="#777777", Direction=135, Strength=3);
+	z-index: 10000;
+}
+.help-tooltip a, .help-tooltip a:hover {
+	color: blue !important;
+	background: none;
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12265204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12265204-1');
+</script>
+
+</head>
+
+<body>
+<!--  Do NOT delete previous line if you want to get statistics on the number of opened emails -->
+<table align="center" style="border-style:solid; color:#000000; width:1px; padding:0px" width="650">
+	<tbody>
+		<tr>
+			<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td align="center">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" style="padding: 15px 0 15px 0" class="">
+									<div class="code_block">
+									<div class="code_block_center">
+									<div class="code_block_indiv_content">
+									<table>
+										<tbody>
+											<tr>
+												<td align="center" width="45%" class=""><img alt="InfoSight" height="54" src="https://is-1.secure.cusolutionsgroup.net/files/is/1/image/Newsletter/logo.png" width="229"></td>
+												<td width="10%" class="">&nbsp;</td>
+												<td align="center" width="45%" class=""><img alt="LSCU" height="80" src="https://is-1.secure.cusolutionsgroup.net/files/is/4867/image/logo-lscu-192.png" width="192"></td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									</div>
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td pardot-data="" style="background: rgb(0, 91, 170); text-align: center; padding: 20px; color: white;" class="">
+									<div class="code_block">
+									<div class="code_block_center">
+									<div class="code_block_indiv_content">
+									<h1>Compliance eNewsletter</h1>
+
+									<p style="color:#ffffff;">powered by the League of Southeastern Credit Unions &amp; Affiliates<br>
+									<br>
+									<strong>January 05, 2022<br>
+									Vol. 16, Issue 1</strong></p>
+									</div>
+									</div>
+									</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="3" width="650">
+				<tbody>
+					<tr>
+						<td class="">
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="top"></a>In This Issue</h2>
+						&nbsp;
+
+						<table align="center" border="0" cellpadding="5" width="100%">
+							<tbody>
+								<tr>
+									<td width="48%" class=""><a href="#training">Training at your Fingertips</a></td>
+									<td width="5%" class="">&nbsp;</td>
+									<td class=""><a href="#laughs">Just for Laughs</a></td>
+								</tr>
+								<tr>
+									<td class=""><a href="#cuaction">CU Action Update</a></td>
+									<td class="">&nbsp;</td>
+									<td class=""><a href="#cuindustry">CU Industry News</a></td>
+								</tr>
+								<tr>
+									<td class=""><a href="#sec">Security Spotlight</a></td>
+									<td class="">&nbsp;</td>
+									<td class=""><a href="#compliance">Compliance Q&amp;A</a></td>
+								</tr>
+								<tr>
+									<td class=""><a href="#pending">Pending Regulatory - Calls/Input on Proposals</a></td>
+									<td class="">&nbsp;</td>
+									<td class=""><a href="#calendar">Compliance Calendar</a></td>
+								</tr>
+								<tr>
+									<td class=""><a href="#webinars">Webinars Available for Purchase</a></td>
+									<td class="">&nbsp;</td>
+									<td class="">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						&nbsp;
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="training"></a>Training Opportunities at Your Fingertips</h2>
+
+						<p align="center"><img height="174" src="https://lscu.coop/images/infosight/compliance-services.png" width="404"></p>
+
+						<p><strong style="color:#800000;font-size:16px;">Introduction to ComplySight</strong><br>
+						In this webinar, some of the key advantages to this system will be discussed as well as how to use this tool without becoming overwhelmed. Compliance can make you feel like you are trying to take a sip from a fire hose. We want to help ease that pressure.</p>
+
+						<p>This webinar will be held January 13, 2022, and will be led by Bill Berg, VP of Compliance Training, and Information and Tony Roberts, Compliance Consultant.</p>
+
+						<p>It starts at 2:00 pm EST and will run 1 hour. This webinar is free and is part of a continuing series of free webinars that the LSCU’s Compliance Department will be offering next year to increase the familiarity of ComplySight to our credit unions as well as to offer them suggestions on how to best use this Compliance Management System to meet regulatory expectations most effectively.</p>
+
+						<p><a href="https://iplanprime.eventready.com/index.cfm?fuseaction=reg.page&amp;event_id=819" target="_blank">Click here</a> to register.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px;">Vendor Due Diligence Interactive Workshop</strong><br>
+						Vendor Due Diligence has often been an area of confusion and instability for many credit unions. On January 26, 2022, at 2:00-5:00 EST the LSCU Compliance and Regulatory Services &amp; Credit Union Vendor Management are working together to provide an interactive vendor due diligence workshop designed to help aid struggling credit unions understand the process from beginning to end. During this interactive workshop we will cover:</p>
+
+						<ul>
+							<li>how to complete your risk assessment effectively</li>
+							<li>how to use that information to risk rate your vendors</li>
+							<li>We will offer insight on how to choose vendors that best meet the needs of your credit union by reviewing and understanding what you should be looking for in those often-overwhelming contracts.</li>
+						</ul>
+
+						<p>To get the most from this webinar we ask that attendees bring sample contracts from their credit unions as a tool to help guide them through the process. We will review case studies that give expectations for low, medium &amp; high-risk vendors. Attendees are more than welcome to send questions in advance to <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> to help ensure we cover topics that are important to you. The cost to attend this webinar is $79.00. To register for this even <a href="https://iplanprime.eventready.com/index.cfm?fuseaction=reg.page&amp;event_id=812" target="_blank">click here</a>.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="laughs"></a>Just for Laughs</h2>
+
+						<p align="center"><img height="500" src="https://lscu.coop/images/infosight/reg-guidelines.jpg" width="500"></p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuaction"></a>CU Action Update</h2>
+
+						<p><strong style="color:#800000;font-size:16px">NCUA Board Approves COVID-19 Regulatory Relief Extension</strong><br>
+						On December 21, The National Credit Union Administration Board unanimously approved, by notation vote, an extension of the effective date of its temporary final rule, which modified certain regulatory requirements to help ensure that federally insured credit unions remain operational and can address economic conditions caused by the COVID–19 pandemic.</p>
+
+						<p>The <a href="https://www.ncua.gov/files/agenda-items/AG20200416Item2b.pdf" target="_blank">temporary final rule</a> issued by the Board in April 2020 raised the maximum aggregate amount of loan participations that a federally insured credit union may purchase from a single originating lender to the greater of $5,000,000 or 200 percent of the credit union’s net worth. The rule also temporarily suspended certain limitations on the eligible obligations that a federal credit union may purchase and hold.</p>
+
+						<p>In addition, given physical distancing practices necessitated by the COVID–19 pandemic, the rule suspended the required timeframes for the occupancy or disposition of properties not being used for federal credit union business or that have been abandoned.</p>
+
+						<p>These temporary modifications will remain effective until Dec. 31, 2022.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px">CFPB and DOJ Put Landlords and Mortgage Servicers on Notice About Servicemembers’ and Veterans’ Rights</strong><br>
+						The Consumer Financial Protection Bureau (CFPB) and U.S. Department of Justice (DOJ) issued two joint letters recently regarding important legal housing protections for military families. One letter was sent to landlords and other housing providers regarding protections for military tenants. A second letter was sent to mortgage servicers regarding military borrowers who have already exited or will be exiting COVID-19 mortgage forbearance programs in the coming weeks and months.</p>
+
+						<p>The letter to landlords and other housing providers reminds property owners of the important housing protections for military tenants, some of whom may have had to relocate or make other changes to their housing arrangements in response to the crisis. While military families enjoy the same legal protections and privileges afforded to all other homeowners and tenants, they also have additional housing protections under the Servicemembers Civil Relief Act (SCRA), which is enforceable by the DOJ and servicemembers themselves.</p>
+
+						<p>The letter to mortgage servicers comes in response to complaints from military families and veterans on a range of potential mortgage servicing violations, including inaccurate credit reporting, misleading communications to borrowers, and required lump sum payments for reinstating their mortgage loans. These complaints are being reviewed for compliance by the CFPB with the Coronavirus Aid, Relief, and Economic Security (CARES) Act and other applicable requirements.</p>
+
+						<p>During the COVID-19 pandemic, roughly 7.6 million homeowners entered forbearance. While the majority have resumed their regular mortgage payments, approximately 1.25 million borrowers – many of whom are military borrowers – remain in forbearance programs that will expire at the end of the year. Ensuring that mortgage servicers comply with their legal obligations is crucial, especially since a decade ago some large financial institutions illegally seized the homes of military families, sending their lives into a tailspin. These violations were a result of breakdowns in the mortgage servicing industry that were severe and widespread. The result was numerous settlements with regulators, including a $186 million settlement between DOJ and some of the country’s largest mortgage servicers.</p>
+
+						<p>Servicemembers have several legal protections under the SCRA that are designed to enable them to devote their entire energy to the national defense. These include, for example, a prohibition on foreclosing on certain servicemembers’ mortgages without court orders, the ability for military families to terminate residential leases early, and without penalty, upon receipt of military orders, and a prohibition on evicting military families from their homes without court orders. In addition, under the CARES Act and Regulation X, servicemembers and veterans have the same protections available to all mortgage borrowers. These include, for example, streamlined COVID hardship forbearance options, requirements that mortgages receiving a COVID-19 hardship forbearance be reported as “current” to credit reporting agencies if the loan was current before entering forbearance under the CARES Act, and requirements in the Bureau’s Regulations X and Z for treatment of delinquent borrowers and borrowers who have applied for loss mitigation.</p>
+
+						<p>The CFPB and DOJ are calling on mortgage servicers and landlords to ensure that military homeowners and tenants are safeguarded during the pandemic and benefit equally from the Nation’s economic recovery.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuindustry"></a>CU Industry News</h2>
+
+						<p><strong style="color:#800000;font-size:16px">Consumer Finances During the Pandemic: Insights from the Making Ends Meet Survey</strong><br>
+						Despite a massive increase in unemployment starting in March 2020, consumers’ average financial situation improved in the first several months of the pandemic and continued to improve through June 2021. The CFPB used three waves of the Bureau’s Making Ends Meet survey and its association with credit bureau data to understand how consumers have managed during the pandemic. We find that pandemic assistance policies such as expanded unemployment insurance and loan flexibilities are responsible for many of these improvements. Consumers were much more likely to face a significant reduction in income during the pandemic than before. But unemployment insurance kept consumers with income drops from facing financial hardship. Consumers who did not receive pandemic-related flexibilities generally faced financial hardship. But some pandemic-related flexibilities and forbearance programs failed to reach many consumers facing hardship. Most pandemic polices—including extended unemployment insurance, eviction moratoria, and mortgage and student loan flexibilities—have recently ended or will end soon. Our results suggest these programs helped protect consumers during the pandemic, so their expiration may lead to increased consumer distress unless the economic recovery is strong and equitable enough to make up for the loss of protections.</p>
+
+						<p>You can read the <a href="https://files.consumerfinance.gov/f/documents/cfbp_making-ends-meet-survey-insights_report_2021-12.pdf" target="_blank">full report here</a>.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px">The NCUA Board Approves 2022–2023 Budget, Sets Normal Operating Level</strong><br>
+						The National Credit Union Administration Board held its eleventh open meeting of 2021 through a live webcast on December 16th and approved four items:</p>
+
+						<ul>
+							<li>The operating, capital, and National Credit Union Share Insurance Fund budgets for 2022 and 2023;</li>
+							<li>A final rule creating a simplified measure of capital adequacy for complex credit unions;</li>
+							<li>A final rule permitting federal credit unions to purchase mortgage servicing rights from other federally insured credit unions; and</li>
+							<li>A final rule amending the NCUA’s subordinated debt rules to facilitate investments from the U.S. Treasury’s Emergency Capital Investment Program.</li>
+						</ul>
+
+						<p>In addition, the NCUA Board approved the National Credit Union Share Insurance Fund’s Normal Operating Level to be 1.33 percent in 2022.</p>
+
+						<p>You can read more about this <a href="https://www.ncua.gov/newsroom/press-release/2021/board-approves-2022-2023-budget-sets-normal-operating-level" target="_blank">board meeting here</a>.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px">Consumers Keep up With Rising Loan Payments</strong><br>
+						The average new vehicle loan amount increased 8.5% in a year, according to Experian. The company’s latest <a href="https://www.experian.com/automotive/auto-credit-webinar-form" target="_blank">State of the Automotive Finance Market</a> report found that the average new vehicle loan amount increased from $34,682 in the third quarter of 2020 to $37,280 in the third quarter of 2021.</p>
+
+						<p>The average used vehicle loan amount increased even more, from $21,622 to $25,909 in the same time frame.</p>
+
+						<p>Larger loan amounts require consumers to make higher monthly payments. Average monthly payments for new vehicles increased from $565 in the third quarter of 2020 to $609 in the third quarter of 2021, and average monthly payments for used vehicle loans increased from $401 to $465 during this time.</p>
+
+						<p>Experian reports that inventory shortages are driving up vehicle prices. However, while prices have risen, customers are keeping up with their payments.</p>
+
+						<p>Third-quarter data shows that 30-day delinquencies grew from 1.65% to 1.66% between 2020 and 2021, while 60-day delinquencies stayed at 0.55%.</p>
+
+						<p>The report also notes that the delinquency numbers are lower than in the third quarter of 2019, when the rates were 2.35% and 0.79% for 30- and 60-day delinquencies, respectively.</p>
+
+						<p>Interest rates have decreased, with the average interest rate for a new vehicle loan decreasing from 4.23% in the third quarter of 2020 to 4.05% in the third quarter of 2021. For used vehicles, the average interest rate decreased from 8.39% to 7.98%.</p>
+
+						<p>Experian also found that overall loan balances grew 8% from the third quarter of 2020 ($1.2 trillion) to the third quarter of 2021 ($1.293 trillion), and that the average credit score for a used vehicle loan increased from 666 to 675 during that time.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="sec"></a>Security Spotlight</h2>
+
+						<p><strong style="color:#800000;font-size:16px;">FinCEN Analysis Reveals Upward Trend of SARs Related to Wildlife Trafficking</strong><br>
+						On December 20th, the Financial Crimes Enforcement Network (FinCEN) released a <a href="https://www.fincen.gov/sites/default/files/2021-12/Financial_Threat_Analysis_IWT_FINAL%20508_122021.pdf" target="_blank">Financial Threat Analysis</a> on wildlife trafficking threat patterns and trend information identified in Bank Secrecy Act (BSA) data. The report aims to further inform efforts to combat wildlife trafficking and the associated movement of illicit proceeds, which are estimated to be between $7 and $23 billion per year and account for a quarter of all wildlife trade.</p>
+
+						<p>Wildlife trafficking is a major transnational organized crime that fuels corruption, threatens biodiversity, damages fragile ecosystems, and can have a significant negative impact on public health and the economy. It involves the illicit trade of protected animals, animal parts, and derivatives thereof, including procurement, transport, and distribution, in violation of international or domestic law, and money laundering related to this activity. To move, hide, and launder their proceeds, wildlife traffickers exploit weaknesses in financial and non-financial sectors, enabling further wildlife crimes and damaging financial integrity.</p>
+
+						<p>FinCEN’s analysis of wildlife trafficking-related Suspicious Activity Reports (SARs) indicates that wildlife trafficking is affecting the U.S. financial sector. Overall, wildlife trafficking-related SARs filed between January 2018 and October 2021 trended significantly up and SARs filed in 2021 are on track to meet or exceed the number of SARs filed in 2020 based on current trends.</p>
+
+						<p>FinCEN is calling attention to this threat because of: (1) its strong association with corruption and transnational criminal organizations, two of FinCEN’s national anti-money laundering and <a href="https://www.fincen.gov/sites/default/files/shared/AML_CFT%20Priorities%20(June%2030%2C%202021).pdf" target="_blank">countering the financing of terrorism priorities</a> published in June 2021; (2) a need to enhance reporting and analysis of related illicit financial flows; and, (3) wildlife trafficking’s contribution to biodiversity loss, damage to fragile ecosystems, and the increased likelihood of spreading of zoonotic diseases.</p>
+
+						<p>This report is issued pursuant to Section 6206 of the Anti-Money Laundering Act of 2020, which requires FinCEN to periodically publish threat pattern and trend information derived from SARs, and is another example of FinCEN’s increasing focus in this area. In November, FinCEN held a <a href="https://www.fincen.gov/news/news-releases/fincen-holds-fincen-exchange-environmental-crimes-and-related-financial-activity" target="_blank">FinCEN Exchange</a> session on environmental crimes and issued a Notice to call attention to an upward trend in environmental crimes and associated illicit financial activity.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="compliance"></a>Compliance Q&amp;A</h2>
+
+						<p><strong>Q:</strong> What is the definition of automated telephone dialing system (ATDS)?</p>
+
+						<p><strong>A:</strong> An automated telephone dialing system is defined as equipment which has the capacity to store or produce telephone numbers to be called, using a random or sequential number generator. This includes predictive dialers, power dialers, preview dialers, click-to-call technology and anything that can dial numbers without human intervention.</p>
+
+						<p><strong>Q:</strong> Does Telephone Consumer Protection Act apply to all phones?</p>
+
+						<p><strong>A:</strong> On the dialer end: The new TCPA regulations apply to all systems with autodialing capabilities. On the recipient end: The new regulations apply to all cellular phones (with exceptions for emergency calls). It also applies to landlines if the caller is using prerecorded messages to contact the landline subscriber.</p>
+
+						<p><strong>Q:</strong> Can a credit union incur fines for violation claims under the TCPA Act?</p>
+
+						<p><strong>A:</strong> Statutory damages could cost $500 per incident. Under the TCPA, before a business may text or call a customer on the customer’s cell or smart phone, using an automatic telephone dialing system or artificial or pre-recorded message, the business must have the customer’s “prior express consent.” In the Rules and Regulations Implementing Telephone Consumer Protection Act 1991, Declaratory Ruling 23 FCC Rcd. 559 (Jan. 2008). If any part of the communication contains a marketing message, the business must obtain the customer’s “express written consent.” In many instances, the TCPA requires the business to provide an opt-out mechanism as part of the artificial or pre-recorded message. Alleged violations of these rules, and others, have been the basis of many class action lawsuits involving debt collection, marketing and other calls to customers. In many instances, the cases will turn on whether the customer provided their “prior express consent” to be called or texted on their cell or smart phones.</p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="pending"></a>Pending Regulatory Calls</h2>
+
+						<p><strong style="color:#800000;font-size:16px;">Pending Regulatory Calls</strong><br>
+						As part of your advocacy team, making sure your voice is heard on important issues that could affect your credit union is one of our main goals. David Pace, Manager of Regulatory Advocacy with LSCU and part of our compliance team, will be commenting on pending regulatory proposals. For the LSCU comment letters to have the greatest impact, we need to hear from you. If you would like to discuss any of the proposals still open for comment listed below, please contact David at <a href="mailto:David.Pace@lscu.coop">David.Pace@lscu.coop</a>.</p>
+
+						<p>Please visit our <a href="https://oss8.gcua.org/oss8/users/login.php?ce=0&amp;group=323&amp;url=www.lscu.coop/publications/rrcl/index_new.php%3f" target="_blank">site</a> to see other comment letters LSCU has submitted on behalf of our credit unions.</p>
+
+						<p><strong style="color:#800000;font-size:16px;">LSCU Now Soliciting Input on Proposals</strong></p>
+
+						<p>For more information regarding the proposals below, please follow the staff contact links:</p>
+
+						<table border="1" cellpadding="6px" style="border-collapse: collapse" width="100%">
+							<tbody>
+								<tr>
+									<td valign="top" class=""><strong>Issues</strong></td>
+									<td valign="top" class=""><strong>Due Date</strong></td>
+									<td valign="top" class=""><strong>Agency</strong></td>
+									<td valign="top" class=""><strong>Staff Contact</strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DDR4yNw1V1-TJ9s0Sm1BspQ~~%26pe%3DM2NwkZVSm4JMtKBBSEP-I2uWyac4fYXLu-jEa7Zpi-TEx0RViGK3JP7OPK9A9_sUm6Tnvqvzi2hXhabM5g3SqQ~~%26t%3DWZLu-MWIj8IwUIV3l83m9w~~&amp;data=04%7C01%7Cdavid.pace%40lscu.coop%7Cb7d149c03c9d4653ee5408d9b900546d%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637744233385251695%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=Tk6yJvJCGFLsNzCFxuLJ5w8h3pGhlhMZITmEX7o0%2FNY%3D&amp;reserved=0" target="_blank">Small Business Lending Data Collection under ECOA (Reg B)</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>January 6, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>CFPB</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:David.Pace@lscu.coop" target="_blank">David Pace</a></strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DCcc75G-X91I82xN-3xraSg~~%26pe%3DqsAE1U3B7aje_fwfu8XtLMNBtVbgx_AtC5VE_Wt2ILEzP0rXAlxxDrggNTxWNzO_SbOBW0lYwfTriapmgTbpcA~~%26t%3DLrOI_Rx-ovCEm4vOLJZksQ~~&amp;data=04%7C01%7CDavid.Pace%40lscu.coop%7Cddac2e604ac14b9e020f08d9b37f5655%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637738181758380693%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=PFeRoK3W4Vq6rK2WKgO8ueM%2F7pCXKVspv85hnuYPdRI%3D&amp;reserved=0" target="_blank">HMDA Rule Assessment</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>January 21, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>CFPB</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:David.Pace@lscu.coop" target="_blank">David Pace</a></strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DDR4yNw1V1-TJ9s0Sm1BspQ~~%26pe%3DzGIBx1w87ubj0yo0HAhVRaAZEoI9Zzf9gkkmQARrIXCJ0ZVGgk8kfSgCqeKjpOpJXoZqQlZf--osOn8PF8IRFg~~%26t%3DWZLu-MWIj8IwUIV3l83m9w~~&amp;data=04%7C01%7Cdavid.pace%40lscu.coop%7Cb7d149c03c9d4653ee5408d9b900546d%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637744233385271614%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=gUCqzGdrORtKP8rdhXyN9i4u4ZhtjapZRs116%2Bqm5hM%3D&amp;reserved=0" target="_blank">Draft Strategic Plan 2022-2026</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>January 24, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>CFPB</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lmartone@cuna.coop" target="_blank">Luke Martone</a></strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/anti-money-laundering-regulations-for-real-estate-transactions.html?utm_source=real%5Fmagnet&amp;utm_medium=email&amp;utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Anti-Money Laundering Regulations for Real Estate Transactions</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>February 7, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/beneficial-ownership-information-reporting-requirements.html?utm_source=real%5Fmagnet&amp;utm_medium=email&amp;utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Beneficial Ownership Information Reporting Requirements</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>February 7, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+								</tr>
+								<tr>
+									<td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/beneficial-ownership-information-reporting-requirements.html?utm_source=real%5Fmagnet&amp;utm_medium=email&amp;utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Review of Bank Secrecy Act Regulations and Guidance</a></strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>February 14, 2022</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+									<td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>The <a href="https://www.cuna.org/Advocacy/Priorities/Advocacy-Update/CUNA-Advocacy-Update/" target="_blank">CUNA Advocacy Update</a> keeps you on top of the most important changes in Washington for credit unions and what CUNA is doing to monitor, analyze, and influence government agencies and federal law.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="calendar"></a>Compliance Calendar</h2>
+
+						<p><strong style="font-size:16px; color:#800000">January 2022</strong></p>
+
+						<ul>
+							<li>January 4th: <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar?event_id=4365" target="_blank">OSHA - COVID-19 Vaccination and Testing: Emergency Temporary Standard</a></li>
+							<li>January 17th: Birthday of Martin Luther King, Jr. - Federal Holiday</li>
+							<li>January 30th: <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar?event_id=4367" target="_blank">5300 Call Report Due to NCUA</a></li>
+							<li>January 31st: <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar?event_id=4359" target="_blank">CFPB - Credit Card Agreement and Data Submission Requirements: First Quarterly Report Due Using "Collect"</a></li>
+						</ul>
+
+						<p>Click <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar" target="_blank">here</a> for upcoming compliance dates.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="webinars"></a>Webinars Available for Purchase</h2>
+
+						<p><strong style="font-size:16px; color:#800000">Annual S.A.F.E. Act Training</strong><br>
+						In order for mortgage loan originators to be S.A.F.E Act Compliant the LSCU Regulatory &amp; Compliance Team, Compliance Consultant, Sharon Murphy helps originators meet these requirements in a 1-hour webinar available to credit union staff. Sharon covers everything you need to know as a mortgage loan originator, from what duties constitutes the requirement to register as a mortgage loan originator to when you must provide your NMLS#. The cost to purchase this webinar is $50.00. Email <a href="mailto:compliance@LSCU.coop">compliance@LSCU.coop</a> to purchase.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="font-size:16px; color:#800000">BSA Training</strong><br>
+						Get On-Demand BSA Training for your front-line employees and your BSA officers. Day one will cover the basics of BSA and is designed to meet the mandatory BSA training requirement under the regulation. Including BSA requirements for specific job functions such as tellers, member service and lenders. Day two will cover how to create an effective BSA Program, why information sharing is important, and when you should file a SAR. You will hear from BSA experts on what expectations are and what resources are available to help keep you and your BSA Program up to date. The cost for these programs is:</p>
+
+						<p>Day 1 Only: $79<br>
+						Day 2 Only: $149<br>
+						Both Days: $199</p>
+
+						<p><a href="http://iplanprime.eventready.com/events/BSAONDemand" target="_blank">Click here</a> to sign up!</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px;">LSCU Compliance Council</strong><br>
+						Not a member of the <a href="https://lscucouncils.com/compliance.php" target="_blank">LSCU Compliance Council</a>? Join your peers today for lively discussions and networking on what keeps you up at night and hot regulatory/compliance topics. Also, gain educational insight from presenters on subjects that matter to your credit union!</p>
+
+						<p>Save the date for the next two compliance council meeting on December 7th.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<p><strong style="color:#800000;font-size:16px;">Bookmark InfoSight</strong><br>
+						To access InfoSight directly, add the following link to your bookmarks: <a href="https://lscu.leagueinfosight.com/" target="_blank">https://lscu.leagueinfosight.com/</a><br>
+						<br>
+						<strong style="color:#800000;font-size:16px;">Need Compliance Help?</strong><br>
+						LSCU has certified Compliance Specialists who can help. Contact <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> for more information.</p>
+
+						<p><a href="#top">BACK TO TOP ∧</a></p>
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center" bgcolor="#005baa" style="color:white; padding: 20px;" class="">
+									<div class="code_block">
+									<div class="code_block_center">
+									<div class="code_block_indiv_top"><strong style="color:#800000">&nbsp;</strong></div>
+
+									<div class="code_block_indiv_content">
+									<p><strong style="color:#800000"><strong style="color:#ffffff">Created in partnership with</strong></strong></p>
+
+									<p><strong style="color:#800000"><img alt="CUNA" height="28" src="https://lscu.leagueinfosight.com/files/is/1/image/Newsletter/cuna.png" width="100"></strong></p>
+									</div>
+									</div>
+									</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100" width="650">
+	<tbody>
+		<tr>
+			<td align="center" style="font color: #090909; font-size: 12px; font-family: 'Source Sans Pro', Arial, sans-serif; line-height: 14px;" class="">
+			<p align="center"><a data-fontcolor="1" target="_blank"><br>
+			<span style="font-size:10px;">This email was sent to&nbsp;</span></a><span style="font-size:10px;">{{Recipient.Email}}&nbsp;<a data-fontcolor="1" target="_blank">because you are subscribed to our emailing list.</a><br>
+			<br>
+			You can visit our website to <a href="{{EmailPreferenceCenter}}">update your subscription preferences</a>.</span><br>
+			&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

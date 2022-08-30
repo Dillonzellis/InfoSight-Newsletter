@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<style type="text/css">
+BODY {
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background-repeat: repeat-x;
+}
+P, LI, TABLE, .normal {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.cookieCrumb {
+	COLOR: #666666;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sectionTitle {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 12pt;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+}
+.menuItem, A.menuItem {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000000;
+}
+.navleft, A.navleft {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navleftSub, A.navleftSub {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+.navHigh, A.navHigh {
+	border: 0px solid yellow;
+ color: black  padding: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.navtop, A.navtop {
+	color: #000099;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.deSummaryHeadline {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+}
+.deHeadline {
+	COLOR: #000000;
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+}
+.search {
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+}
+.box, .sidebarHeader {
+	background-color: #000099;
+	FONT-SIZE: 11pt;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sidebar {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background: #DDDDDD;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+.subtext {
+	COLOR: #000000;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+/* ----------------------------- INFOSIGHT CSS-------------------------- */
+/* ------------------------- MAIN CONTENT ELEMENTS ------------------------- */
+.PageHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.newsletterHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterSubHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterHeader_Blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0D3F64;
+}
+/* ----------------------------- REGIONS ----------------------------------- */
+.subhead {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color: #000000;
+}
+li.regions_relatedlink_list, ul.regions_relatedlink_list {
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+/* ------------------------------------------------------ */
+
+/* CONTENT: SITEMAP STYLES */
+.content_sitemap {
+}
+/* CONTENT: RATES STYLES */
+.content_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_notes {
+}
+.content_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.content_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* CONTENT: BANNER STYLES */
+.content_banner {
+}
+/* CONTENT: POLL STYLES */
+.content_poll_title {
+	font-weight: bold;
+}
+.content_poll_option {
+}
+/* CONTENT: ARTICLE STYLES */
+.content_article_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_article_list {
+}
+.content_article_list LI {
+	margin-bottom: 10px;
+}
+/* CONTENT: CALENDAR STYLES */
+.content_calendar_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_calendar_list {
+}
+.content_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.content_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.content_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.content_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------------------------------------ */
+
+.regions_header {
+	font-size: 14px;
+	color: #003333;
+	font-weight: bold;
+}
+/* REGIONS: SITEMAP STYLES */
+.regions_sitemap {
+}
+/* REGIONS: RATES STYLES */
+.regions_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_notes {
+}
+.regions_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.regions_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.regions_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* REGIONS: BANNER STYLES */
+.regions_banner {
+}
+/* REGIONS: RELATED LINKS STYLES */
+.regions_relatedlink_list {
+}
+/* REGIONS: POLL STYLES */
+.regions_poll_title {
+	font-weight: bold;
+}
+.regions_poll_option {
+}
+/* REGIONS: ARTICLE STYLES */
+.regions_articles_list {
+}
+/* REGIONS: CALENDAR STYLES */
+.regions_calendar_list {
+}
+.regions_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.regions_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.regions_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.regions_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------- SIDE BAR ELEMENTS ------------------------- */
+.SideLinksMain {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	color : #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.SideLinksMain:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksMain:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+
+}
+a.SideLinksMain:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #cccccc;
+}
+.SideLinksSub {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	color : #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.SideLinksSub:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+a.helpLink, a.helpLink:visited, a.helpLink:link, a.helpLink:active {
+	color: Red;
+	text-decoration: none;
+	border-bottom: 1px dashed Red;
+	cursor: help;
+}
+a.helpLink:hover {
+	color: Blue;
+	text-decoration: none;
+	border-bottom: 1px dashed Blue;
+}
+.help-tooltip {
+	position: absolute;
+	width: 250px;
+	border: 1px Solid WindowFrame;
+	background: Infobackground;
+	color: InfoText;
+	font: StatusBar;
+	font: Status-Bar;
+	padding: 3px;
+ filter:		progid:DXImageTransform.Microsoft.Shadow(color="#777777", Direction=135, Strength=3);
+	z-index: 10000;
+}
+.help-tooltip a, .help-tooltip a:hover {
+	color: blue !important;
+	background: none;
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12265204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12265204-1');
+</script>
+
+</head>
+
+<body>
+<!--  Do NOT delete previous line if you want to get statistics on the number of opened emails -->
+<table align="center" style="border-style:solid; color:#000000; width:1px; padding:0px" width="650">
+  <tbody>
+    <tr>
+      <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="center" style="padding: 15px 0 15px 0" class=""><div class="code_block">
+                    <div class="code_block_center">
+                      <div class="code_block_indiv_content">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td align="center" width="45%" class=""><img alt="InfoSight" height="54" src="https://is-1.secure.cusolutionsgroup.net/files/is/1/image/Newsletter/logo.png" width="229"></td>
+                              <td width="10%" class="">&nbsp;</td>
+                              <td align="center" width="45%" class=""><img alt="LSCU" height="80" src="https://is-1.secure.cusolutionsgroup.net/files/is/4867/image/logo-lscu-192.png" width="192"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td pardot-data="" style="background: rgb(0, 91, 170); text-align: center; padding: 20px; color: white;" class=""><div class="code_block">
+                    <div class="code_block_center">
+                      <div class="code_block_indiv_content">
+                        <h1>Compliance eNewsletter</h1>
+                        <p style="color:#ffffff;">powered by the League of Southeastern Credit Unions &amp; Affiliates<br>
+                          <br>
+                          <strong>May 04, 2022<br>
+                            Vol. 16, Issue 17</strong></p>
+                      </div>
+                    </div>
+                  </div></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+      </table>
+        <table border="0" cellpadding="3" width="650">
+          <tbody>
+            <tr>
+              <td class="">
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="top"></a>In This Issue</h2>
+				  
+				  <br>
+				  <table border="0" cellpadding="5" align="center" width="100%">
+				  
+					  	<tr>
+							<td width="48%"><a href="#training">Training at Your Fingertips</a></td>
+							<td width="5%">&nbsp;</td>
+					  	  <td><a href="#focus">InfoSight Focus</a></td>
+				    </tr>
+					  <tr>
+							<td width="48%"><a href="#cuindustry">Industry News</a></td>
+							<td width="5%">&nbsp;</td>
+					  	  <td><a href="#gacu">Georgia Credit Unions</a></td>
+				    </tr>
+
+				    <tr>
+							<td width="48%"><a href="#cuaction">CU Action Update</a></td>
+							<td width="5%">&nbsp;</td>
+					  	  <td><a href="#qa">Compliance Q & A</a></td>
+				    </tr>
+				    <tr>
+					  <td width="48%"><a href="#pending">Pending Regulatory Request for Comments</a></td>
+							<td width="5%">&nbsp;</td>
+				  	  <td><a href="#calendar">Compliance Calendar</a></td>
+				    </tr>
+					  <tr>
+					  <td width="48%"><a href="#webinars">Available Fee-Based Training</a></td>
+							<td width="5%">&nbsp;</td>
+				  	  <td>&nbsp;</td>
+				    </tr>
+				  				  
+                </table>
+				  <br>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="training"></a>Training at Your Fingertips</h2>
+				  
+				  <p><strong style="color:#800000;font-size:16px;">Free CECL Webinar for Small Credit Unions</strong><br>
+After multiple delays, CECL (Currently Expected Credit Loss) regulation is now expected to become part of GAAP (Generally Accepted Accounting Principles) on 1.1.2023.  GAAP is required for all financial institutions over $10 million in assets.</p>
+				  
+				  <p>We have become aware of a relatively simple, inexpensive (read free) program that smaller, less complex credit unions (under $100 million in asset size) might want to use to help generate an analysis of your ALLL (Allowance for Loan and Lease Loss) account that will meet regulatory scrutiny and satisfy the examiners. You still have to do some additional work, so it will cost you time and effort, but no out of pocket expenses.</p>
+				  
+				  <p>David Pace, Manager Regulatory Advocacy and Bill Berg, Vice President of Compliance Training and Information will be presenting this simplified approach to CECL on May 25, 2022, at 10:00 am EST.</p>
+				  
+				  <p>You can register for this workshop here <a href="https://na.eventscloud.com/683208" target="_blank">https://na.eventscloud.com/683208</a></p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <table border="0" align="center" width="100%">
+				  	<tr>
+			  	    <td align="center"><img src="https://lscu.coop/images/infosight/scuce.png" width="545" height="153" border="0"></td></tr>
+				  </table>
+				  
+			    <p><strong style="color:#800000;font-size:16px;">SCUCE-LSCU Council Conference June 14th</strong><br>			    
+It’s once again time for the largest in-person credit union event of the year! This year’s Southeastern Credit Union Conference & Expo (SCUCE) will offer something new and exciting to the itinerary. The LSCU Council Conference is open for not only all LSCU Council members, but also anyone interested in learning more about the benefits of membership to an LSCU council. The Council Conference will be a jam-packed fun-filled day of national level general session speakers with a focus on professional development and many other educational and networking opportunities that you will find in the roundtable council discussions and afternoon breakout sessions. Lunch and a networking cocktail reception are included in the registration fee. Register today so you can finally meet your fellow council members and credit union colleagues face-to-face in sunny Florida!</p>
+				  
+				  <p>Attendees only wanting to attend the Council Conference can do so for an affordable fee of $199.</p>
+				  
+				  <p>If the exciting Council Conference is not enough for you, join us for the full conference which will offer Dynamic Speakers, Countless Networking Opportunities, Golf, a Silent Auction, an Advocacy Luncheon, an Exhibit Hall, and Nightly Activities which are sure to keep you entertained! The cost for attending the conference in its entirety is $839.</p>
+				  
+				  <p><a href="https://na.eventscloud.com/website/36566/" target="_blank">Click here</a> to learn more about pricing and grants that may be available for your credit union.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="focus"></a>InfoSight Focus</h2>
+				  
+				  <p>&nbsp;</p>
+				  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+				  
+					  <tr><td width="51%" align="center" valign="top"><a href="https://www.leagueinfosight.com/infosight-video" target="_blank"><img src="https://lscu.coop/images/infosight/recovery-pro.png" width="283" height="231" border="0"></a></td>
+						  <td width="49%" valign="top"><p>Your members look to you to protect their assets in case an unforeseen disaster occurs, so it is critical for credit unions to have a blueprint for emergency preparedness.</p>
+							  
+							  <p>RecoveryPro guides credit unions through a complete business impact analysis to identify and prioritize key business processes, the creation of a business continuity plan for use in recovering from a disaster, and an incident management plan for use in responding to a developing event. From there, credit unions have the option to add more elements, such as risk assessment and comprehensive policies. Affiliated credit unions receive a <em><strong>deep discount</strong></em> on the RecoveryPro annual    fee! <a href="https://www.leagueinfosight.com/recoverypro-overview" target="_blank">Check it out today</a>!</p>
+
+			            </td>
+				    </tr>
+
+				  
+				  </table>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuaction"></a>CU Action Update</h2>
+				  <p><strong style="color:#800000;font-size:16px;">CUNA Provides First-Quarter 2022 Update to the Credit Card MLA Fee Comparison Spreadsheet</strong><br>
+					  The <a href="https://community.cuna.org/HigherLogic/Security/SAML/localSAMLLoginService.aspx?ReturnUrl=https%3a%2f%2fcommunity.cuna.org%2fHigherLogic%2fSecurity%2fCrossSiteLogin.aspx" target="_blank">first-quarter 2022 update</a> to the credit card MLA Fee Comparison Spreadsheet is now available in CUNA’s Compliance Community in the CUNA Compliance Tool folder in the file share library. You can find spreadsheets dated back to 2017.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <p><strong style="color:#800000;font-size:16px;">NCUA Issues Prompt Corrective Action Relief Renewal Follow-up for Credit Unions</strong><br>
+During its February meeting, the National Credit Union Administration Board approved by notation vote a temporary order that specifies temporary revisions to the earnings-retention requirement for credit unions that are adequately capitalized. This <a href="https://www.ncua.gov/coronavirus/federally-insured-credit-unions/temporary-order-decreasing-earnings-retention-requirement?utm_medium=email&utm_source=NCUAgovdelivery" target="_blank">temporary order</a> is effective from April 1, 2022, through and including March 31, 2023.</p>
+				  
+				  <p>Specifically, the interim final rule makes two temporary changes to the NCUA’s prompt corrective action regulations. The first temporarily reduces the earnings retention requirement for federally insured credit unions classified as adequately capitalized.</p>
+				  
+				  <p>Those credit unions unable to meet the earnings retention requirement will not have to submit a written application requesting approval to decrease their earnings retention amount. However, if a credit union either poses an undue risk to the National Credit Union Share Insurance Fund or exhibits material safety and soundness concerns, the appropriate NCUA Regional Director may require the credit union to submit an earnings transfer waiver request.</p>
+				  
+				  <p>The second change temporarily permits an undercapitalized credit union to submit a streamlined net worth restoration plan if it becomes undercapitalized predominantly because of share growth. If a credit union becomes less than adequately capitalized for reasons other than share growth, it must still submit a net worth restoration plan under the current requirements in NCUA’s regulations.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuindustry"></a>Industry News</h2>
+				  
+				  <p><strong style="color:#800000;font-size:16px">Community Development Revolving Loan Fund Grant Round Opened May 2</strong><br>
+Eligible low-income designated credit unions seeking Community Development Revolving Loan Fund (CDRLF) grants in 2022 can apply between May 2 and June 24.</p>
+				  
+				  <p><a href="https://www.ncua.gov/newsroom/press-release/2022/community-development-revolving-loan-fund-grant-round-opens-may-2?utm_medium=email&utm_source=NCUAgovdelivery" target="_blank">View the entire press release</a></p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <p><strong style="color:#800000;font-size:16px">Ukraine-Related Sanctions Regs Amended, Renamed, and Reissued</strong><br>
+OFAC <a href="https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220429" target="_blank">announced</a> it has amended and reissued, in their entirety, the Ukraine-Related Sanctions Regulations and renamed the regulations - the Ukraine-/Russia-Related Sanctions Regulations. This administrative action replaces the regulations that were published in abbreviated form on May 8, 2014, with a more comprehensive set of regulations that includes additional interpretive and definitional guidance, general licenses, and other regulatory provisions that will provide further guidance to the public. OFAC also <a href="https://home.treasury.gov/policy-issues/financial-sanctions/faqs/updated/2022-04-29" target="_blank">revised several FAQs</a> related to the revised Ukraine-/Russia-Related Sanctions Regulations. The revised regulations became effective today with their publication at <a href="https://www.federalregister.gov/d/2022-09371" target="_blank">87 FR 26094</a>.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <p><strong style="color:#800000;font-size:16px">U.S. Targets Facilitators of Russian Sanctions Evasion</strong><br>
+The <a href="https://home.treasury.gov/news/press-releases/jy0731" target="_blank">Department of the Treasury has announced</a> that OFAC has designated entities and individuals involved in attempts to evade sanctions imposed by the United States and its international partners on Russia. OFAC designated Russian commercial bank <strong>Transkapitalbank</strong> (TKB), and a global network of more than forty individuals and entities led by U.S.-designated Russian oligarch <strong>Konstantin Malofeyev</strong>, including organizations whose primary mission is to facilitate sanctions evasion for Russian entities.</p>
+					
+			    <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="gacu"></a>Georgia Credit Unions</h2>
+				  
+			    <p><strong style="color:#800000;font-size:16px">Follow Up to Department of Revenue Letter</strong><br>
+				    As a follow up to the previous article posted in the <a href="https://lscu.leagueinfosight.com/resources/all-newsletters/infosight-enewsletter-vol-16-issue-13" target="_blank">April 6th eNewsletter</a> regarding a letter sent by the Department of Revenue (DOR) to Georgia credit unions titled “Request for Financial Institution Information for Delinquent Taxpayers”. We wanted to update you that we continue to work with the DOR to provide more guidance and instruction. Once we have guidance on how to proceed, we will communicate those instructions accordingly. Please stay tuned for more information.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="qa"></a>Compliance Q&A's</h2>
+				  
+				  <p><strong>Q:</strong> What is the minimum amount of information a member must provide to claim a transaction is unauthorized? What if such a minimum amount is not helpful in conducting an investigation?</p>
+				  
+				  <p><strong>A:</strong> For §<a href="https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.11" target="_blank">1005.11</a> to apply, Regulation E states you must be able to identify the member’s name, account number, and why it is believed that an error has occurred. Section §<a href="https://www.ecfr.gov/current/title-12/chapter-X/part-1005/subpart-A/section-1005.6" target="_blank">1005.6</a> does not specify any minimum amount of information a consumer must provide. Unfortunately, the burden of proof under Regulation E is on the financial institution. Remember, if an unauthorized transaction occurs, the member might not have access to any more information than you do and the very reason the regulation aims to protect them. If the member acts in a way that makes you believe he/she might know more than what they are telling you, you can factor that into your investigation; however, we would not recommend denying claims solely on the basis that members do not give you everything you request. The burden to conduct an investigation is on the credit union.</p>
+				  
+				  <p><strong>Q:</strong> What are some of the most common violations with deposit account disclosures?</p>
+				  
+				  <p><strong>A:</strong> The most common violations we see typically have to do with inconsistent terminology (disclosures vs. statements) and disclosures that state something different than what your core system is actually doing. This might be the timing of charging fees, how they will be calculated, etc.</p>
+				  
+				  <p><strong>Q:</strong> A member whose spouse passed away last year has a joint tax refund check to deposit. She has a copy of his death certificate and is the executrix of his estate and wants to deposit the check into her personal (individual) account. Can she do that?</p>
+				  
+				  <p><strong>A:</strong> Yes, the member can deposit the check. The Code of Federal Regulations, <a href="https://www.ecfr.gov/current/title-31/subtitle-B/chapter-II/subchapter-A/part-240/subject-group-ECFR6940ee4c8fe52e3/section-240.15" target="_blank">31 CFR 240.15</a>, states that these checks, when indorsed by an executor or administrator, shall include, as part of the indorsement, an indication of the capacity in which the executor or administrator is indorsing. An example would be John Jones by Mary Jones, executor of the estate of John Jones.'' Such checks, when presented for payment by a financial institution, will be paid by the Treasury without the submission of documentary proof of the authority of the executor or administrator, with the understanding that evidence of such claimed authority to indorse may be required by the Treasury in the event of a dispute.</p>
+				  
+				  <p>The Regulation goes on to say that if an executor/executrix has not been appointed, persons claiming as owners shall return the checks for appropriate handling to the Government agency that certified the payment.</p>
+				  
+			    <p><a href="#top">BACK TO TOP &and;</a></p> 
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="pending"></a>Pending Regulatory Requests for Comment</h2>
+				  
+				  <table border="0" width="100%" align="center" cellpadding="5" cellspacing="0">
+				  <tr>
+				    <td width="50%"><table border="1" cellpadding="6px" style="border-collapse: collapse" width="100%">
+				      <tbody>
+				        <tr>
+				          <td align="center" valign="top" class=""><strong>Issues</strong></td>
+				          </tr>
+
+						  <tr>
+				          <td align="center" valign="top" class=""><strong><a href="https://www.govinfo.gov/content/pkg/FR-2022-04-08/pdf/2022-07528.pdf" target="_blank">Prohibition on Inclusion of Adverse Info in Consumer Reporting in Cases of Human Trafficking (Reg V)</a><br>
+				            May 9, 2022<br>
+				            <a href="mailto:amonterrubio@cuna.coop">Alexander Monterrubio</a></strong></td>
+				          </tr>
+						  <tr>
+				          <td align="center" valign="top" class=""><strong><a href="https://www.federalreserve.gov/publications/files/money-and-payments-20220120.pdf?utm_source=real_magnet&utm_medium=email&utm_campaign=020722%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">The U.S. Dollar in the Age of Digital Transformation</a><br>
+				            May 20, 2022<br>
+				            FED<br>
+				            <a href="mailto:david.pace@lscu.coop">David Pace</a></strong></td>
+				          </tr>
+						  <tr>
+						    <td align="center" valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/calls-2022/pca--earnings-retention-waivers-and-net-worth-restoration-plans.html?utm_source=real%5Fmagnet&utm_medium=email&utm_campaign=041122%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">PCA: Earnings Retention Waivers and Net Worth Restoration Plans</a><br>
+						      May 29, 2022<br>
+						      NCUA
+						      <br>
+						      <a href="mailto:lmartone@cuna.coop">Luke Martone</a></strong></td>
+					      </tr>
+						  <tr>
+						    <td align="center" valign="top" class=""><strong><a href="https://www.govinfo.gov/content/pkg/FR-2022-04-01/pdf/2022-06875.pdf?utm_source=real_magnet&utm_medium=email&utm_campaign=041122%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Increased Forty-Year Term for Loan Modifications</a><br>
+						      May 31, 2022<br>
+						      HUD<br>
+						      <a href="mailto:ESullivan@cuna.coop">Elizabeth Sullivan </a></strong></td>
+					      </tr>
+						  <tr>
+						    <td align="center" valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/calls-2022/ncua-2022-regulatory-review.html?utm_source=real%5Fmagnet&utm_medium=email&utm_campaign=041122%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">NCUA 2022 Regulatory Review</a><br>
+						      August 16, 2022<br>
+						      NCUA<br>
+					          <a href="mailto:david.pace@lscu.coop" target="_blank">David Pace</a></strong></td>
+					      </tr>
+				        </tbody>
+			        </table></td>
+					  <td width="50%" valign="top"><p>As part of your advocacy team, making sure your voice is heard on important issues is one of our main goals. David Pace, Manager of Regulatory Advocacy with LSCU and part of our compliance team, will be commenting on some pending regulatory proposals. If you would like to discuss any of the proposals still open for comment listed, please contact David at <a href="mailto:David.Pace@lscu.coop">David.Pace@lscu.coop</a>.</p>
+					    <p>Please visit our <a href="https://lscu.coop/publications/rrcl/index.php" target="_blank">site</a> to review other comment letters submitted by LSCU on behalf of credit unions.</p>
+				  
+				  <p><strong style="color:#800000;font-size:16px;">LSCU Now Soliciting Input on Proposals</strong></p>
+				  
+				  <p>For more information regarding the proposals where David is not listed as the staff contact, please follow the CUNA staff contact link.</p></td></tr>
+					  
+				  </table>
+				  
+
+			    <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="calendar"></a>Compliance Calendar</h2>
+				  
+			    <p><strong style="font-size:16px; color:#800000">May 2022</strong></p>
+                <ul>
+
+					<li>May 4th &amp; 5th: BSA Workshop</li>
+					<li>May 25th: CECL Workshop</li>
+					<li>May 30th: Memorial Day - Federal Holiday</li>
+
+                </ul>
+				  
+			    <p><strong style="font-size:16px; color:#800000">June 2022</strong></p>
+                <ul>
+
+					<li>June 14th: SCUCE LSCU Council Conference - Orlando, Florida</li>
+					<li>June 15th - 17th: SCUCE - Orlando, Florida</li>
+					<li>June 20th: Juneteenth National Independence Day - Federal Holiday</li>
+
+                </ul>
+				  
+                <p>Click <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar" target="_blank">here</a> for upcoming compliance dates.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="webinars"></a>LSCU Fee-Based Compliance Training Webinars</h2>
+				  
+			    <ul>
+				  <li>Vendor Due Diligence Workshop - $79.00</li>
+				  <li>FACTA Red Flags - $50.00</li>
+				  <li>S.A.F.E. Act Training - $50.00</li>
+				  </ul>
+			    <p>Email <a href="mailto:compliance@lscu.coop" target="_blank">compliance@lscu.coop</a> to purchase.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a>                </p>
+			    <p><strong style="color:#800000;font-size:16px;">Bookmark InfoSight</strong><br>
+                To access InfoSight directly, add the following link to your bookmarks: <a href="https://lscu.leagueinfosight.com/" target="_blank">https://lscu.leagueinfosight.com/</a><br>
+                <br>
+                <strong style="color:#800000;font-size:16px;">Need Compliance Help?</strong><br>
+                LSCU has certified Compliance Specialists who can help. Contact <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> for more information.                </p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" bgcolor="#005baa" style="color:white; padding: 20px;" class=""><div class="code_block">
+                        <div class="code_block_center">
+                          <div class="code_block_indiv_top"><strong style="color:#800000">&nbsp;</strong></div>
+                          <div class="code_block_indiv_content">
+                            <p><strong style="color:#800000"><strong style="color:#ffffff">Created in partnership with</strong></strong></p>
+                            <p><strong style="color:#800000"><img alt="CUNA" height="28" src="https://lscu.leagueinfosight.com/files/is/1/image/Newsletter/cuna.png" width="100"></strong></p>
+                          </div>
+                        </div>
+                      </div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+            <tr>
+              <td class="">&nbsp;</td>
+            </tr>
+          </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100" width="650">
+	<tbody>
+		<tr>
+			<td align="center" style="font color: #090909; font-size: 12px; font-family: 'Source Sans Pro', Arial, sans-serif; line-height: 14px;" class=""><p align="center"><a data-fontcolor="1" target="_blank"><br>
+<span style="font-size:10px;">This email was sent to&nbsp;</span></a><span style="font-size:10px;">{{Recipient.Email}}&nbsp;<a data-fontcolor="1" target="_blank">because you are subscribed to our emailing list.</a><br>
+<br>
+You can visit our website to <a href="{{EmailPreferenceCenter}}">update your subscription preferences</a>.</span><br>
+&nbsp;</p></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

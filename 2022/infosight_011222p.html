@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<style type="text/css">
+BODY {
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background-repeat: repeat-x;
+}
+P, LI, TABLE, .normal {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.cookieCrumb {
+	COLOR: #666666;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sectionTitle {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 12pt;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+}
+.menuItem, A.menuItem {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000000;
+}
+.navleft, A.navleft {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navleftSub, A.navleftSub {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+.navHigh, A.navHigh {
+	border: 0px solid yellow;
+ color: black  padding: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.navtop, A.navtop {
+	color: #000099;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.deSummaryHeadline {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+}
+.deHeadline {
+	COLOR: #000000;
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+}
+.search {
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+}
+.box, .sidebarHeader {
+	background-color: #000099;
+	FONT-SIZE: 11pt;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+.sidebar {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+	background: #DDDDDD;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+.subtext {
+	COLOR: #000000;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, helvetica, sans-serif;
+}
+/* ----------------------------- INFOSIGHT CSS-------------------------- */
+/* ------------------------- MAIN CONTENT ELEMENTS ------------------------- */
+.PageHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.newsletterHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterSubHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterHeader_Blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0D3F64;
+}
+/* ----------------------------- REGIONS ----------------------------------- */
+.subhead {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color: #000000;
+}
+li.regions_relatedlink_list, ul.regions_relatedlink_list {
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+/* ------------------------------------------------------ */
+
+/* CONTENT: SITEMAP STYLES */
+.content_sitemap {
+}
+/* CONTENT: RATES STYLES */
+.content_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.content_rates_notes {
+}
+.content_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.content_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* CONTENT: BANNER STYLES */
+.content_banner {
+}
+/* CONTENT: POLL STYLES */
+.content_poll_title {
+	font-weight: bold;
+}
+.content_poll_option {
+}
+/* CONTENT: ARTICLE STYLES */
+.content_article_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_article_list {
+}
+.content_article_list LI {
+	margin-bottom: 10px;
+}
+/* CONTENT: CALENDAR STYLES */
+.content_calendar_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_calendar_list {
+}
+.content_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.content_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.content_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.content_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------------------------------------ */
+
+.regions_header {
+	font-size: 14px;
+	color: #003333;
+	font-weight: bold;
+}
+/* REGIONS: SITEMAP STYLES */
+.regions_sitemap {
+}
+/* REGIONS: RATES STYLES */
+.regions_rates_category1 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_category2 {
+	font-size: 16px;
+	color: #996600;
+}
+.regions_rates_notes {
+}
+.regions_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.regions_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 16px;
+	font-weight: bold;
+}
+.regions_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* REGIONS: BANNER STYLES */
+.regions_banner {
+}
+/* REGIONS: RELATED LINKS STYLES */
+.regions_relatedlink_list {
+}
+/* REGIONS: POLL STYLES */
+.regions_poll_title {
+	font-weight: bold;
+}
+.regions_poll_option {
+}
+/* REGIONS: ARTICLE STYLES */
+.regions_articles_list {
+}
+/* REGIONS: CALENDAR STYLES */
+.regions_calendar_list {
+}
+.regions_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.regions_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.regions_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.regions_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------- SIDE BAR ELEMENTS ------------------------- */
+.SideLinksMain {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	color : #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.SideLinksMain:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksMain:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+
+}
+a.SideLinksMain:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #cccccc;
+}
+.SideLinksSub {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	color : #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.SideLinksSub:link {
+ font-family: Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:visited {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:hover {
+ font-family : Arial, Helvetica, sans-serif  font-size: 10px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+a.helpLink, a.helpLink:visited, a.helpLink:link, a.helpLink:active {
+	color: Red;
+	text-decoration: none;
+	border-bottom: 1px dashed Red;
+	cursor: help;
+}
+a.helpLink:hover {
+	color: Blue;
+	text-decoration: none;
+	border-bottom: 1px dashed Blue;
+}
+.help-tooltip {
+	position: absolute;
+	width: 250px;
+	border: 1px Solid WindowFrame;
+	background: Infobackground;
+	color: InfoText;
+	font: StatusBar;
+	font: Status-Bar;
+	padding: 3px;
+ filter:		progid:DXImageTransform.Microsoft.Shadow(color="#777777", Direction=135, Strength=3);
+	z-index: 10000;
+}
+.help-tooltip a, .help-tooltip a:hover {
+	color: blue !important;
+	background: none;
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12265204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12265204-1');
+</script>
+
+</head>
+
+<body>
+<!--  Do NOT delete previous line if you want to get statistics on the number of opened emails -->
+<table align="center" style="border-style:solid; color:#000000; width:1px; padding:0px" width="650">
+  <tbody>
+    <tr>
+      <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+          <tr>
+            <td align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="center" style="padding: 15px 0 15px 0" class=""><div class="code_block">
+                    <div class="code_block_center">
+                      <div class="code_block_indiv_content">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td align="center" width="45%" class=""><img alt="InfoSight" height="54" src="https://is-1.secure.cusolutionsgroup.net/files/is/1/image/Newsletter/logo.png" width="229"></td>
+                              <td width="10%" class="">&nbsp;</td>
+                              <td align="center" width="45%" class=""><img alt="LSCU" height="80" src="https://is-1.secure.cusolutionsgroup.net/files/is/4867/image/logo-lscu-192.png" width="192"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td pardot-data="" style="background: rgb(0, 91, 170); text-align: center; padding: 20px; color: white;" class=""><div class="code_block">
+                    <div class="code_block_center">
+                      <div class="code_block_indiv_content">
+                        <h1>Compliance eNewsletter</h1>
+                        <p style="color:#ffffff;">powered by the League of Southeastern Credit Unions &amp; Affiliates<br>
+                          <br>
+                          <strong>January 12, 2022<br>
+                            Vol. 16, Issue 2</strong></p>
+                      </div>
+                    </div>
+                  </div></td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+      </table>
+        <table border="0" cellpadding="3" width="650">
+          <tbody>
+            <tr>
+              <td class="">
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="top"></a>In This Issue</h2>
+				  
+				  <br>
+				  <table border="0" cellpadding="5" align="center" width="100%">
+				  
+					  	<tr>
+							<td width="48%"><a href="#training">Training at your Fingertips</a></td>
+							<td width="5%">&nbsp;</td>
+					  	  <td><a href="#highlight">InfoSight Highlight</a></td>
+				    </tr>
+					  	<tr>
+					  	  <td><a href="#cuaction">CU Action Update</a></td>
+					  	  <td>&nbsp;</td>
+					  	  <td><a href="#cuindustry">CU Industry News</a></td>
+			  	    </tr>
+					  
+					  	<tr>
+							<td><a href="#ga">Georgia CU News</a></td>
+					  	  <td>&nbsp;</td>
+							<td><a href="#fl">Florida CU News</a></td>
+			  	    </tr>
+					  	<tr>
+					  	  <td><a href="#qas">Compliance Q&amp;A</a></td>
+							
+					  	  <td>&nbsp;</td>
+							
+							<td><a href="#pending">Pending Regulatory - Calls/Input on Proposals</a></td>
+			  	    </tr>
+					  	<tr>
+							<td><a href="#calendar">Compliance Calendar</a></td>
+					  	  <td>&nbsp;</td>
+							<td><a href="#webinars">Webinars Available for Purchase</a></td>
+			  	    </tr>
+				  				  
+                </table>
+				  <br>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="training"></a>Training Opportunities at Your Fingertips</h2>
+				  
+				  <p align="center"><img src="https://lscu.coop/images/infosight/compliance-services.png" width="404" height="174"></p>
+				  
+				  <p><strong style="color:#800000;font-size:16px;">Introduction to ComplySight</strong><br>
+In this webinar, some of the key advantages to this system will be discussed as well as how to use this tool without becoming overwhelmed. Compliance can make you feel like you are trying to take a sip from a fire hose. We want to help ease that pressure.</p>
+				  
+				  <p>This webinar will be held January 13, 2022, and will be led by Bill Berg, VP of Compliance Training, and Information and Tony Roberts, Compliance Consultant.</p>
+				  
+				  <p>It starts at 2:00 pm EST and will run 1 hour. This webinar is free and is part of a continuing series of free webinars that the LSCU’s Compliance Department will be offering next year to increase the familiarity of ComplySight to our credit unions as well as to offer them suggestions on how to best use this Compliance Management System to meet regulatory expectations most effectively.</p>
+				  
+				  <p><a href="https://iplanprime.eventready.com/index.cfm?fuseaction=reg.page&event_id=819" target="_blank">Click here</a> to register.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <p><strong style="color:#800000;font-size:16px;">Vendor Due Diligence Interactive Workshop</strong><br>
+Vendor Due Diligence has often been an area of confusion and instability for many credit unions. On January 26, 2022, at 2:00-5:00 EST the LSCU Compliance and Regulatory Services & Credit Union Vendor Management are working together to provide an interactive vendor due diligence workshop designed to help aid struggling credit unions understand the process from beginning to end. During this interactive workshop we will cover:</p>
+				  
+				  <ul>
+				    <li>how to complete your risk assessment effectively</li>
+				    <li>how to use that information to risk rate your vendors</li>
+				    <li>We will offer insight on how to choose vendors that best meet the needs of your credit union by reviewing and understanding what you should be looking for in those often-overwhelming contracts.</li>
+	            </ul>
+				  
+				  <p>To get the most from this webinar we ask that attendees bring sample contracts from their credit unions as a tool to help guide them through the process. We will review case studies that give expectations for low, medium & high-risk vendors. Attendees are more than welcome to send questions in advance to <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> to help ensure we cover topics that are important to you. The cost to attend this webinar is $79.00. To register for this even <a href="https://iplanprime.eventready.com/index.cfm?fuseaction=reg.page&event_id=812" target="_blank">click here</a>.</p>
+
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p> 
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="highlight"></a>InfoSight Highlight</h2>
+				  
+				  <p align="center"><img src="https://lscu.coop/images/infosight/new-years.png" width="500" height="500"></p>
+				  
+				  <p>Let us help you achieve your compliance resolutions for 2022!</p>
+				  
+				  <ol>
+				    <li>When staff has a better understanding of compliance, it makes everyone’s job easier. Valuable and easy-to-understand information is available for all staff in <a href="https://lscu.leagueinfosight.com/" target="_blank">InfoSight</a>!</li>
+				    <li>Use <a href="https://lscu.leagueinfosight.com/cu-policypro" target="_blank">CU PolicyPro</a> to create and maintain policies, and to view and confirm relevant model policy updates to ensure your credit union’s policies are up to date!</li>
+				    <li>RecoveryPro can guide you through the development, maintenance, and implementation of your business continuity plan (BCP)!</li>
+	            </ol>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuaction"></a>CU Action Update</h2>
+				  
+				  <p><strong style="color:#800000;font-size:16px">Annual Threshold Changes</strong><br>
+					  <a href="https://www.ncua.gov/regulation-supervision/letters-credit-unions-other-guidance/2022-threshold-adjustments-under-truth-lending-act-regulation-z-consumer-leasing-act" target="_blank">NCUA issued a Regulatory Alert (21-RA-11)</a> with the 2022 annual adjustments for three exemption thresholds under the Truth in Lending Act (TILA or Regulation Z) and the Consumer Leasing Act (CLA or Regulation M). The thresholds exempt loans from special appraisal requirements for higher-priced mortgage loans and determine exempt consumer credit and lease transactions under Regulation Z and Regulation M.</p>
+				  
+				  <p>The 2022 thresholds, effective on Jan. 1, 2022, are an increase from the 2021 thresholds.</p>
+				  
+				  <p>The CFPB also issued an annual adjustment to the maximum amount credit bureaus may charge consumers for making a file disclosure to a consumer under the Fair Credit Reporting Act (FCRA or Regulation V). The 2022 ceiling, effective on Jan. 1, will increase from the 2021 ceiling to a maximum of $8.00.</p>
+				  
+				  <ul>
+				    <li>The appraisals for higher-priced mortgage loans exemption threshold for 2022 will increase to $28,500 from $27,200 based on the annual increase in the Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W) in effect as of June 1, 2021.</li>
+				    <li>The consumer credit and consumer lease exemption threshold for 2022 will increase to $61,000 from $58,300 based on the annual percentage increase in the CPI-W in effect as of June 1, 2021.</li>
+		        </ul>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <p><strong style="color:#800000;font-size:16px">New Nacha Rules: The Year in Review and the Year Ahead</strong><br>
+					  It’s often said that the Nacha Operating Rules are a living document, always changing, never stagnant. There was abundant proof of that in 2021, as seven Rules changes took effect, and 2022 is shaping up to be another busy year. First, let’s look at some of last year’s changes in chronological order.</p>
+				  
+				  <ul>
+				    <li><a href="https://www.nacha.org/rules/expanding-same-day-ach" target="_blank">Expanded Same Day ACH Hours</a> (effective March 19, 2021). A new third window allows Same Day ACH payments to be submitted to the ACH Network two hours later, until 4:45 p.m. ET. With this enhancement, ACH payments now settle four times a day.</li>
+				    <li><a href="https://www.nacha.org/rules/supplementing-fraud-detection-standards-web-debits" target="_blank">Supplementing Fraud Detection Standards for WEB Debits</a> (effective March 19, 2021). Under existing Rules, Originators of WEB debit entries were required to use a “commercially reasonable fraudulent transaction detection system” to screen those entries for fraud. The new Rule supplemented this requirement by making it explicit that “account validation” is part of a “commercially reasonable fraudulent transaction detection system.”</li>
+				    <li><a href="https://www.nacha.org/rules/differentiating-unauthorized-return-reasons" target="_blank">Differentiating Unauthorized Return Reasons—Phase Two</a> (effective April 1, 2021). R11 returns became covered by the existing Unauthorized Entry Fee. It was implemented by the ACH Operators and is billed/credited on their monthly statement of charges.</li>
+				    <li><a href="https://www.nacha.org/rules/limitation-warranty-claims" target="_blank">Limitation on Warranty Claims</a> (effective June 30, 2021). This Rule establishes specific time periods for RDFIs to make claims based on unauthorized entries and brings the ACH Network in line with other payment systems that have time limits.</li>
+				    <li><a href="https://www.nacha.org/rules/supplementing-data-security-requirements-phase-1" target="_blank">Supplementing Data Security—Phase One</a> (effective June 30, 2021). The existing ACH Security Framework Rule, including its data protection requirements, now explicitly requires large, non-FI Originators, Third-Party Service Providers and Third-Party Senders to protect deposit account information by rendering it unreadable when it is stored electronically. Phase One applied to those with annual ACH volume of 6 million or more transactions.</li>
+				    <li><a href="https://www.nacha.org/rules/reversals-and-enforcement" target="_blank">Reversals and Enforcement</a> (effective June 30, 2021). Permissible reasons for a reversal were expanded to include a “wrong date” error. Formatting requirements for reversals—beyond the current standardized use—were established, and an RDFI is now explicitly permitted to return an improper reversal.</li>
+				    <li><a href="https://www.nacha.org/rules/meaningful-modernization" target="_blank">Meaningful Modernization</a> (effective Sept. 17, 2021). “Alexa, pay my electric bill” quickly became a common request that led to questions about how to handle it. That, in part, led to Meaningful Modernization, a set of Rules that modernized aspects of ACH authorizations and other processes to improve the ACH user experience.</li>
+                </ul>
+				  
+				  <p>The new year is here, and it’s bringing changes to the Nacha Rules. Here’s what’s on deck for 2022.</p>
+				  
+				  <ul>
+				    <li><a href="https://www.nacha.org/rules/increasing-same-day-ach-dollar-limit-0" target="_blank">Increased Same Day ACH Dollar Limit</a> (effective March 18, 2022). The dollar limit for each Same Day ACH payment will increase from $100,000 to $1 million.</li>
+				    <li><a href="https://www.nacha.org/rules/supplementing-data-security-requirements-phase-2" target="_blank">Supplementing Data Security Requirements—Phase Two</a> (effective June 30, 2022). This is the second part of the Rule which took effect in March 2021 (see above). It will now apply to those with annual ACH volume of 2 million or more transactions.</li>
+				    <li><a href="https://www.nacha.org/rules/third-party-sender-roles-and-responsibilities-0" target="_blank">Third-Party Sender Roles and Responsibilities</a> (effective Sept. 30, 2022). These Rules will further clarify the roles and responsibilities of Third-Party Senders (TPS) in the ACH Network by addressing the existing practice of Nested Third-Party Sender relationships and making explicit and clarifying the requirement that a TPS conduct a Risk Assessment.</li>
+	            </ul>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <p><strong style="color:#800000;font-size:16px">CFPB: HMDA Filing Period Has Begun</strong><br>
+The CFPB has notified email update subscribers that the filing period for HMDA data collected in 2021 opened on January 1, 2022.</p>
+				  
+				  <p>Access the HMDA Platform to begin the filing process for data collected in 2021 at <a href="https://ffiec.cfpb.gov/filing" target="_blank">https://ffiec.cfpb.gov/filing</a>.</p>
+				  
+				  <p>Passwords to the Platform are reset every 90 days. If a user has forgotten their password or it has expired, they can use the "Forgot Password?" link on the log in page to reset their password. Users will receive a confirmation email upon submission of their HMDA data. The email will be sent to the email account of the user that has submitted the data.</p>
+				  
+				  <p>Testing the 2021 Beta Platform found at <a href="https://ffiec.beta.cfpb.gov/filing/" target="_blank">https://ffiec.beta.cfpb.gov/filing/</a> will remain available on an ongoing basis for filers wishing to test their submissions. Please note that the Beta Platform is for testing purposes only. No data submitted on the Beta Platform will be considered for compliance with HMDA data reporting requirements. To submit your HMDA Data for 2021, visit the live HMDA Platform at <a href="https://ffiec.cfpb.gov/filing/" target="_blank">https://ffiec.cfpb.gov/filing/</a>. Questions regarding the HMDA Platform may be submitted using the webpage at <a href="https://hmdahelp.consumerfinance.gov/" target="_blank">https://hmdahelp.consumerfinance.gov/</a>.</p>			  
+				
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>				  
+				 
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="cuindustry"></a>CU Industry News</h2>
+				  
+				  <p><strong style="color:#800000;font-size:16px">CFPB Releases Report Detailing Consumer Complaint Response Deficiencies of the Big Three Credit Bureaus</strong><br>
+A new analysis by the Consumer Financial Protection Bureau (CFPB) reveals how changes in complaint responses provided by nationwide consumer reporting companies resulted in fewer meaningful responses and less consumer relief. In 2021, Equifax, Experian, and TransUnion together reported relief in response to less than 2% of covered complaints, down from nearly 25% of covered complaints in 2019.</p>
+				  
+				  <p>Credit reporting plays a critical role in consumers’ lives and has an enormous reach beyond consumer financial services. More than 200 million Americans have credit files, and lenders rely on this information to decide whether to approve loans and on what terms. Consumer reporting also informs decisions about employment, insurance, housing, and even essential utilities. For consumers, inaccuracies on credit reports drive up the cost of credit and severely limit opportunities, such as starting a small business or buying a new home.</p>
+				  
+				  <p>Consumers submitted more than 700,000 complaints to the CFPB regarding Equifax, Experian and TransUnion from January 2020 through September 2021, which represented more than 50% of all complaints received by the agency for that period. Consumers submit more complaints about inaccurate information on their credit and consumer reports than about any other problem. Consumers most frequently assert that the inaccurate information belongs to someone else, and consumers often describe being victims of identity theft.</p>
+				  
+				  <p>The CFPB found the three companies often failed to provide substantive responses, especially when they alleged the complaints were sent in by third parties. However, consumers can authorize third-party representatives to submit complaints on their behalf.</p>
+				  
+				  <p>The full report can be <a href="https://www.consumerfinance.gov/data-research/research-reports/annual-report-consumer-credit-reporting-complaints-analysis-of-complaint-responses-equifax-experian-transunion/" target="_blank">found here</a>.</p>
+
+					
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="ga"></a>Georgia CU News</h2>
+					
+				  <p>The Georgia Department of Banking and Finance Recently released its December issue of Financial Institutions Today. In this Bulletin they discuss the updates that were made to the BSA/AML Examination Manual back on December 1st. The department also issued guidance on the purchase of financial institution owned life insurance products. If you would like to see the full bulletin, <a href="https://content.govdelivery.com/attachments/GADBF/2022/01/06/file_attachments/2039479/December 2021 Monthly Bulletin.pdf" target="_blank">click here</a>.</p>
+
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="fl"></a>Florida CU News</h2>
+					
+			    <p><strong style="color:#800000;font-size:16px">OFR Issues Guidance on Offering Virtual Currency Services to Credit Union Members</strong><br>
+The Florida Office of Financial Regulation (OFR) has issued guidance on what virtual currency services a credit union can offer to its members. The guidance states that it is not prohibited under Florida law for credit unions to offer custodial crypto currency services to credit union members and that depending on the amount of risk involved a credit union can work with a third-party vendor to offer these services to their members. This sentiments is largely the same as the <a href="https://www.ncua.gov/regulation-supervision/letters-credit-unions-other-guidance/relationships-third-parties-provide-services-related-digital-assets" target="_blank">letter that was issued by the NCUA</a> clarifying what credit unions could do in regard to virtual currency services. For those who are interested, you can read the full Florida letter <a href="https://lscu.coop/temp/infosight/OFR-Virtual-Currency-and-Digital-Asset-Guidance-January-2022.pdf" target="_blank">here</a>.</p>
+
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="qas"></a>Compliance Q&A</h2>
+				  
+			    <p><strong>Q:</strong> Can federal credit unions still use the Streamlined Expansion Procedure (SEP) to add groups to their charters?</p>
+			    <p><strong>A:</strong> No. The Credit Union Membership and Access Act requires NCUA to make a written determination of the appropriateness of adding new groups, regardless of size, to a multiple common bond credit union. Any group served prior to these requirements, however, can continue to be served.</p>
+			    <p>Over the past several years, the process and time frame for approval through NCUA has dramatically improved. For fastest approval, credit unions may now use the enhanced <a href="https://www.ncua.gov/support-services/credit-union-resources-expansion/field-membership-expansion" target="_blank">FOM Internet application</a>. Paper submissions are done on NCUA forms 4015, 4015-EZ, and 4015-A.</p>
+			    <p><strong>Q:</strong> Are there area restrictions for a multiple group FCU when adding a SEG?</p>
+			    <p><strong>A:</strong> Yes, the group to be added (regardless of size) must be within the federal credit unions service area (reasonable proximity to an existing service facility).</p>
+			    <p>Service area is applicable only for multiple common bond credit unions. This is the area that can reasonably be served by the service facilities accessible to the groups within the field of membership. That is, the group to be added must be within reasonable proximity geographically to a service facility of the credit union (A service facility can be either a branch or ATM).</p>
+			    <p><strong>Q:</strong> What are the application procedures for adding a new select group to our field of membership?</p>
+			    <p><strong>A:</strong> All new groups must be approved by NCUA. Requests for adding new groups can be made using the official Application for Field of Membership Amendment, either NCUA Form 4015-EZ (for groups of less than 3,000 people), Form 4015-A for groups between 3,000 and 4,999, or Form 4015 (for groups of 5,000 or more people).</p>
+			    <p>Forms 4015-EZ, 4015-A, and 4015, along with procedures, can be found in <a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=cee72d460451fe95071d9121833e689d&mc=true&node=pt12.7.701&rgn=div5#ap12.7.701_139.b" target="_blank">NCUA Chartering and Field of Membership Manual of Federal Credit Unions</a>.</p>
+			    <p>If a credit union wants to add an occupational select group of less than 3,000 primary potential members, they have the option of filing an <a href="https://www.ncua.gov/services/Pages/field-of-membership-chartering/application.aspx" target="_blank">FOM Internet Application</a> rather than the paper 4015-EZ form.</p>
+			    <p>Application forms and procedures can also be easily found on <a href="http://www.ncua.gov/" target="_blank">NCUA's Website</a>.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="pending"></a>Pending Regulatory Calls</h2>
+				  
+			    <p><strong style="color:#800000;font-size:16px;">Pending Regulatory Calls</strong><br>
+				  	As part of your advocacy team, making sure your voice is heard on important issues that could affect your credit union is one of our main goals. David Pace, Manager of Regulatory Advocacy with LSCU and part of our compliance team, will be commenting on pending regulatory proposals. For the LSCU comment letters to have the greatest impact, we need to hear from you. If you would like to discuss any of the proposals still open for comment listed below, please contact David at <a href="mailto:David.Pace@lscu.coop">David.Pace@lscu.coop</a>.
+				  </p>
+				  
+				  <p>Please visit our <a href="https://oss8.gcua.org/oss8/users/login.php?ce=0&group=323&url=www.lscu.coop/publications/rrcl/index_new.php%3f" target="_blank">site</a> to see other comment letters LSCU has submitted on behalf of our credit unions.</p>
+				  
+				  <p><strong style="color:#800000;font-size:16px;">LSCU Now Soliciting Input on Proposals</strong></p>
+				  
+				  <p>For more information regarding the proposals below, please follow the staff contact links:</p>
+				  
+				   <table border="1" cellpadding="6px" style="border-collapse: collapse" width="100%">
+                  <tbody>
+                    <tr>
+                      <td valign="top" class=""><strong>Issues</strong></td>
+                      <td valign="top" class=""><strong>Due Date</strong></td>
+                      <td valign="top" class=""><strong>Agency</strong></td>
+                      <td valign="top" class=""><strong>Staff Contact</strong></td>
+                    </tr>
+					  
+					  <tr>
+					    <td valign="top" class=""><strong><a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DCcc75G-X91I82xN-3xraSg~~%26pe%3DqsAE1U3B7aje_fwfu8XtLMNBtVbgx_AtC5VE_Wt2ILEzP0rXAlxxDrggNTxWNzO_SbOBW0lYwfTriapmgTbpcA~~%26t%3DLrOI_Rx-ovCEm4vOLJZksQ~~&data=04%7C01%7CDavid.Pace%40lscu.coop%7Cddac2e604ac14b9e020f08d9b37f5655%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637738181758380693%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=PFeRoK3W4Vq6rK2WKgO8ueM%2F7pCXKVspv85hnuYPdRI%3D&reserved=0" target="_blank">HMDA Rule Assessment</a></strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>January 21, 2022</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>CFPB</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:David.Pace@lscu.coop" target="_blank">David Pace</a></strong></td>
+				    </tr>
+					  
+					  <tr>
+					    <td valign="top" class=""><strong><a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DDR4yNw1V1-TJ9s0Sm1BspQ~~%26pe%3DzGIBx1w87ubj0yo0HAhVRaAZEoI9Zzf9gkkmQARrIXCJ0ZVGgk8kfSgCqeKjpOpJXoZqQlZf--osOn8PF8IRFg~~%26t%3DWZLu-MWIj8IwUIV3l83m9w~~&data=04%7C01%7Cdavid.pace%40lscu.coop%7Cb7d149c03c9d4653ee5408d9b900546d%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637744233385271614%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=gUCqzGdrORtKP8rdhXyN9i4u4ZhtjapZRs116%2Bqm5hM%3D&reserved=0" target="_blank">Draft Strategic Plan 2022-2026</a></strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>January 24, 2022</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>CFPB</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lmartone@cuna.coop" target="_blank">Luke Martone</a></strong></td>
+				    </tr>
+					  <tr>
+					    <td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/anti-money-laundering-regulations-for-real-estate-transactions.html?utm_source=real%5Fmagnet&utm_medium=email&utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Anti-Money Laundering Regulations for Real Estate Transactions</a></strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>February 7, 2022</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+				    </tr>
+					  <tr>
+					    <td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/beneficial-ownership-information-reporting-requirements.html?utm_source=real%5Fmagnet&utm_medium=email&utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Beneficial Ownership Information Reporting Requirements</a></strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>February 7, 2022</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+				    </tr>
+					  <tr>
+					    <td valign="top" class=""><strong><a href="https://www.cuna.org/content/cuna/cuna-org/advocacy/letters---testimonies/call-2021/beneficial-ownership-information-reporting-requirements.html?utm_source=real%5Fmagnet&utm_medium=email&utm_campaign=122021%5Fadvo%5Fadvocacy%5Fupdate" target="_blank">Review of Bank Secrecy Act Regulations and Guidance</a></strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>February 14, 2022</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong>FinCEN</strong></td>
+					    <td nowrap="nowrap" valign="top" class=""><strong><a href="mailto:lnoggle@cuna.coop">David Pace</a></strong></td>
+				    </tr>
+					  
+                  </tbody>
+                </table>
+					    
+			      <p>The <a href="https://www.cuna.org/Advocacy/Priorities/Advocacy-Update/CUNA-Advocacy-Update/" target="_blank">CUNA Advocacy Update</a> keeps you on top of the most important changes in Washington for credit unions and what CUNA is doing to monitor, analyze, and influence government agencies and federal law.</p>
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="calendar"></a>Compliance Calendar</h2>
+				  
+				  <p><strong style="font-size:16px; color:#800000">January 2022</strong></p>
+                <ul>
+
+					<li>January 17th: Birthday of Martin Luther King, Jr. - Federal Holiday</li>
+					<li>January 30th: <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar?event_id=4367" target="_blank">5300 Call Report Due to NCUA</a></li>
+					<li>January 31st: <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar?event_id=4359" target="_blank">CFPB - Credit Card Agreement and Data Submission Requirements: First Quarterly Report Due Using &quot;Collect&quot;</a></li>
+
+                </ul>
+				  
+                <p>Click <a href="https://lscu.leagueinfosight.com/resources/compliance-calendar" target="_blank">here</a> for upcoming compliance dates.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  <h2 style="background-color:#E66D0A;border-radius:10px;color:#ffffff;font-family:'Open Sans',Arial,sans-serif;font-size:24px;margin:0;padding:10px 0;text-align:center;"><a name="webinars"></a>Webinars Available for Purchase</h2>
+				  
+			    <p><strong style="font-size:16px; color:#800000">Annual S.A.F.E. Act Training</strong><br>
+In order for mortgage loan originators to be S.A.F.E Act Compliant the LSCU Regulatory & Compliance Team, Compliance Consultant, Sharon Murphy helps originators meet these requirements in a 1-hour webinar available to credit union staff. Sharon covers everything you need to know as a mortgage loan originator, from what duties constitutes the requirement to register as a mortgage loan originator to when you must provide your NMLS#. The cost to purchase this webinar is $50.00. 
+					  Email <a href="mailto:compliance@LSCU.coop">compliance@LSCU.coop</a> to purchase.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+			    <p><strong style="color:#800000;font-size:16px;">LSCU Compliance Council</strong><br>
+Not a member of the <a href="https://lscucouncils.com/compliance.php" target="_blank">LSCU Compliance Council</a>? Join your peers today for lively discussions and networking on what keeps you up at night and hot regulatory/compliance topics. Also, gain educational insight from presenters on subjects that matter to your credit union!</p>
+				  
+				  <p>Save the date for the next two compliance council meeting on December 7th.</p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+		  
+                <p><strong style="color:#800000;font-size:16px;">Bookmark InfoSight</strong><br>
+                To access InfoSight directly, add the following link to your bookmarks: <a href="https://lscu.leagueinfosight.com/" target="_blank">https://lscu.leagueinfosight.com/</a><br>
+                <br>
+                <strong style="color:#800000;font-size:16px;">Need Compliance Help?</strong><br>
+                LSCU has certified Compliance Specialists who can help. Contact <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> for more information.                </p>
+				  
+				  <p><a href="#top">BACK TO TOP &and;</a></p>
+				  
+				  
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" bgcolor="#005baa" style="color:white; padding: 20px;" class=""><div class="code_block">
+                        <div class="code_block_center">
+                          <div class="code_block_indiv_top"><strong style="color:#800000">&nbsp;</strong></div>
+                          <div class="code_block_indiv_content">
+                            <p><strong style="color:#800000"><strong style="color:#ffffff">Created in partnership with</strong></strong></p>
+                            <p><strong style="color:#800000"><img alt="CUNA" height="28" src="https://lscu.leagueinfosight.com/files/is/1/image/Newsletter/cuna.png" width="100"></strong></p>
+                          </div>
+                        </div>
+                      </div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+            <tr>
+              <td class="">&nbsp;</td>
+            </tr>
+          </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100" width="650">
+	<tbody>
+		<tr>
+			<td align="center" style="font color: #090909; font-size: 12px; font-family: 'Source Sans Pro', Arial, sans-serif; line-height: 14px;" class=""><p align="center"><a data-fontcolor="1" target="_blank"><br>
+<span style="font-size:10px;">This email was sent to&nbsp;</span></a><span style="font-size:10px;">{{Recipient.Email}}&nbsp;<a data-fontcolor="1" target="_blank">because you are subscribed to our emailing list.</a><br>
+<br>
+You can visit our website to <a href="{{EmailPreferenceCenter}}">update your subscription preferences</a>.</span><br>
+&nbsp;</p></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
